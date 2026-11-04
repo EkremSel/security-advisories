@@ -165,6 +165,7 @@ Tested against `poc-superagent.js`: both leaks stop, and the cookie is still sen
 - 2026-11-03: issue found.
 - 2026-11-04: verified against every published cookiejar version and end-to-end through superagent 10.4.1.
 - 2026-11-04: reported to the superagent maintainer by email, per superagent's SECURITY.md.
+- 2026-11-04: reported to the cookiejar maintainers by email, using the addresses listed on npm.
   cookiejar has no security policy or private reporting channel.
 - 2026-11-04 13:30 UTC: published.
 

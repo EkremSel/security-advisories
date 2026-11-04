@@ -6,7 +6,7 @@
 **Reachable through:** superagent 10.4.1 (latest) `superagent.agent()`, including after cross-origin redirects
 **Severity:** Medium (CVSS 3.1 5.9)
 **CWE:** CWE-187 (Partial String Comparison), CWE-200 (Exposure of Sensitive Information)
-**Reported to superagent maintainer:** 2026-11-04
+**Reported to superagent and cookiejar maintainers:** 2026-11-04
 
 `cookiejar` sends a cookie to any host that *ends with* the cookie's `Domain`, without requiring a
 `.` before it, as RFC 6265 §5.1.3 does. A cookie that `example.com` sets with `Domain=example.com`
