@@ -1,0 +1,12 @@
+{
+  "name": "cookiejar-domain-match-repro",
+  "private": true,
+  "scripts": {
+    "repro": "node repro.js",
+    "poc": "node poc-superagent.js"
+  },
+  "dependencies": {
+    "cookiejar": "2.1.4",
+    "superagent": "10.4.1"
+  }
+}
